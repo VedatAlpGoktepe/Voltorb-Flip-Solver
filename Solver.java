@@ -135,7 +135,7 @@ public class Solver {
 		{
 			for (int j = 0; j < 5; j++)
 			{
-				System.out.print(grid[i][j] + "% ");
+				System.out.printf("%3.1f%% ", grid[i][j]);
 			}
 			System.out.println();
 		}
